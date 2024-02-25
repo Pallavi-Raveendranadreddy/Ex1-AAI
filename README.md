@@ -5,7 +5,9 @@
 <H1 ALIGN=CENTER> Implementation of Bayesian Networks</H1> 
 
 ## Aim :
+
     To create a bayesian Network for the given dataset in Python
+    
 ## Algorithm:
 ## Step 1:
 Import necessary libraries: pandas, networkx, matplotlib.pyplot, Bbn, Edge, EdgeType, BbnNode, Variable, EvidenceBuilder, InferenceController<br/>
@@ -37,7 +39,8 @@ Generate the graph using networkx<br/>
 Update margins and display the graph using matplotlib.pyplot<br/>
 
 ## Program:
-''' !pip install pybbn
+''' 
+!pip install pybbn
 
 import pandas as pd
 import networkx as nx
@@ -176,10 +179,12 @@ nx.draw(n, with_labels=True, labels=d, pos=pos, **options)
 ax = plt.gca()
 ax.margins(0.10)
 plt.axis("off")
-plt.show()'''
+plt.show()
+'''
 ## Output:
 ![image](https://github.com/Pallavi-Raveendranadreddy/Ex1-AAI/assets/94294872/edfd9f17-ba25-4404-87aa-c0b4944e4152)
 
 ## Result:
+
    Thus a Bayesian Network is generated using Python
 
